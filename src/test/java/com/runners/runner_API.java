@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
         features = {"src\\test\\resources\\API_Scenarios"},
         glue = {"com\\patientPortalAPI\\step_definitions"},
         dryRun = false,
-        strict = true
+        plugin = {"html:target/default-cucumber-reports",
+                "json:target/cucumber.json"
+        }
 )
 
 public class runner_API {
