@@ -134,12 +134,12 @@
                             <!-- These three lines of code will make your project run in parallel  -->
                             <parallel>methods</parallel>
                             <perCoreThreadCount>false</perCoreThreadCount>
-                            <threadCountMethods>2</threadCountMethods>
+                            <threadCountMethods>1</threadCountMethods>
                             <!--  End   -->
-                            <runOrder>alphabetical</runOrder>
+<!--                            <runOrder>alphabetical</runOrder>-->
                             <includes>
                                 <include>**/CucRunner.java</include>
-                                <include>**/runner.java</include>
+<!--                                <include>**/runner.java</include>-->
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
